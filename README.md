@@ -1,4 +1,4 @@
-API Info
+API testing using Rest Assured
 
 1. GET API
 https://jsonplaceholder.typicode.com/posts
