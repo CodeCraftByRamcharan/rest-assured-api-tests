@@ -1,0 +1,68 @@
+{
+  "order": {
+    "orderId": "ORD-20250728-98765",
+    "date": "2025-07-28T10:45:00Z",
+    "status": "Processing",
+    "customer": {
+      "customerId": "CUST-123456",
+      "name": {
+        "first": "John",
+        "last": "Doe"
+      },
+      "email": "john.doe@example.com",
+      "phone": "+1-202-555-0147",
+      "addresses": [
+        {
+          "type": "billing",
+          "line1": "123 Main St",
+          "line2": "Apt 4B",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "USA"
+        },
+        {
+          "type": "shipping",
+          "line1": "456 Market Ave",
+          "line2": null,
+          "city": "Brooklyn",
+          "state": "NY",
+          "zip": "11201",
+          "country": "USA"
+        }
+      ]
+    },
+    "items": [
+      {
+        "productId": "PROD-001",
+        "name": "Wireless Headphones",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 99.99,
+        "discount": 10.0
+      },
+      {
+        "productId": "PROD-002",
+        "name": "USB-C Charger",
+        "category": "Accessories",
+        "quantity": 2,
+        "price": 19.99,
+        "discount": 0.0
+      }
+    ],
+    "shipping": {
+      "method": "Express",
+      "cost": 7.5,
+      "trackingId": "TRK123456789",
+      "estimatedDelivery": "2025-07-31T17:00:00Z"
+    },
+    "payment": {
+      "method": "Credit Card",
+      "transactionId": "TXN789654123",
+      "amount": 137.47,
+      "currency": "USD",
+      "paid": true
+    },
+    "notes": null
+  }
+}

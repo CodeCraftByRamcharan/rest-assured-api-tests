@@ -1,0 +1,38 @@
+[
+  {
+    "productId": "P1001",
+    "name": "Laptop",
+    "category": "Electronics",
+    "price": 799.99,
+    "available": true,
+    "tags": ["portable", "16GB RAM", "SSD"],
+    "rating": {
+      "average": 4.5,
+      "count": 120
+    }
+  },
+  {
+    "productId": "P1002",
+    "name": "Bluetooth Speaker",
+    "category": "Audio",
+    "price": 49.99,
+    "available": false,
+    "tags": ["wireless", "portable"],
+    "rating": {
+      "average": 4.0,
+      "count": 85
+    }
+  },
+  {
+    "productId": "P1003",
+    "name": "Office Chair",
+    "category": "Furniture",
+    "price": 129.99,
+    "available": true,
+    "tags": ["ergonomic", "adjustable"],
+    "rating": {
+      "average": 4.2,
+      "count": 200
+    }
+  }
+]

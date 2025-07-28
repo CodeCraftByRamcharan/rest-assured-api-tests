@@ -1,0 +1,50 @@
+{
+  "USR-1001": {
+    "name": "Alice Smith",
+    "age": 28,
+    "roles": ["admin", "editor"],
+    "active": true,
+    "lastLogin": "2025-07-25T09:30:00Z",
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    }
+  },
+  "USR-1002": {
+    "name": "Bob Johnson",
+    "age": 35,
+    "roles": ["viewer"],
+    "active": false,
+    "lastLogin": "2025-06-30T17:15:00Z",
+    "preferences": {
+      "theme": "light",
+      "language": "fr",
+      "notifications": {
+        "email": false,
+        "sms": true,
+        "push": false
+      }
+    }
+  },
+  "USR-1003": {
+    "name": "Carol Davis",
+    "age": 42,
+    "roles": ["editor", "moderator"],
+    "active": true,
+    "lastLogin": "2025-07-27T22:00:00Z",
+    "preferences": {
+      "theme": "auto",
+      "language": "es",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": true
+      }
+    }
+  }
+}
